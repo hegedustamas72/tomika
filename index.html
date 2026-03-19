@@ -6,12 +6,19 @@
   <title>Segítség - Elveszett gyerek</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
     body {
       font-family: 'Roboto', Arial, sans-serif;
       text-align: center;
       padding: 40px 20px;
-      background: linear-gradient(135deg, #41ACF4 0%, #A6CFEA 100%);
+      background-color: #a6e4f0;
+      /* Gyerekmintás háttér felhőkkel, csillagokkal, pöttyökkel */
+      background-image: 
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80"><circle cx="10" cy="10" r="5" fill="%23ffe082"/><circle cx="60" cy="20" r="7" fill="%23ff8a65"/><circle cx="40" cy="60" r="6" fill="%23c5e1a5"/><circle cx="70" cy="70" r="4" fill="%23ffecb3"/><path d="M20 40 L25 50 L30 40 L35 50 L40 40" stroke="%23fff" fill="none" stroke-width="2"/></svg>');
+      background-repeat: repeat;
+      background-size: 120px 120px;
     }
+
     .card {
       background: #fff3e0;
       padding: 35px;
@@ -21,17 +28,20 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.25);
       border: 4px solid #ff6f61;
     }
+
     h1 {
       color: #d32f2f;
       font-size: 32px;
       margin-bottom: 25px;
     }
+
     .name {
       font-size: 28px;
       font-weight: bold;
       margin-bottom: 30px;
       color: #37474f;
     }
+
     .btn {
       display: block;
       margin: 18px 0;
@@ -44,16 +54,20 @@
       transition: transform 0.1s, box-shadow 0.1s;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
+
     .btn:active {
       transform: scale(0.95);
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     }
+
     .call-mom {
       background: #ff7043;
     }
+
     .call-dad {
       background: #42a5f5;
     }
+
     .note {
       margin-top: 28px;
       font-size: 18px;
@@ -77,7 +91,6 @@
 
     <div class="note">
       Ha nincsenek a közelben, kérjük hívja fel a szülőket!
-      
     </div>
   </div>
 </body>
